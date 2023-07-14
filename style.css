@@ -33,7 +33,8 @@ a {
     justify-content: center;
     align-items: center;
     justify-content: space-around;
-    padding: 15px;
+    padding: 50px;
+    padding-bottom: 80px;
 }
 
 .left{
@@ -42,7 +43,7 @@ a {
 
 .main-text{
     font-size: 48px;
-    font-style: bold;
+    font-weight: bold;
     color: #F9FAF8;
     margin-bottom: 10px;
 }
@@ -60,4 +61,78 @@ button {
     width: 100px;
     height: 40px;
 }
+
+.title{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    text-align: center;
+    margin: 30px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 25px;
+    padding: 100px;
+    padding-top: 40px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.quote .quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+    align-self: flex-start;
+}
+
+.quote .quote-author{
+    text-align: right;
+    align-self: flex-end;
+    font-weight: 800;
+}
+
+.container2{
+    background-color: #3882f6;
+    color: #F9FAF8;
+    margin: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.action.first {
+    font-size: 36px;
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
+}
+
+.action.second{
+    font-weight: lighter;
+}
+
+.button2{
+    background-color: #3882f6;
+    color: #F9FAF8;    
+    border-radius: 15px;
+    border: #F9FAF8 2px solid ;
+    width: 110px;
+    height: 40px;
+}
+
+
+
 
