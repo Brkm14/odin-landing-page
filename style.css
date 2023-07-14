@@ -1,6 +1,9 @@
 body{
     display: flex;
     flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 .header {
     display: flex;
@@ -77,8 +80,12 @@ button {
     gap: 25px;
     padding: 100px;
     padding-top: 40px;
+    flex-wrap: wrap;
 }
 
+.info{
+    flex-basis: 250px;
+}
 .quote {
     background-color: #E5E7EB;
     display: flex;
@@ -133,6 +140,11 @@ button {
     height: 40px;
 }
 
-
+.footer{
+    background-color: #1f2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 10px;
+}
 
 
